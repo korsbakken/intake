@@ -12,3 +12,30 @@ ignore = ["E402"]  # top of file imports
 
 [tool.isort]
 profile = "black"
+
+[tool.poetry]
+name = "intake"
+version = "0.7.0"
+description = ""
+authors = ["Jan Ivar Korsbakken <janko@cicero.oslo.no>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+appdirs = "*"
+dask = "*"
+entrypoints = "*"
+fsspec = ">=2021.7.0"
+jinja2 = "*"
+msgpack = "*"
+pyyaml = "*"
+requests = "*"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.14.0"
+pytest = "^7.4.0"
+dataset-builder = {path = "/home/janko/src/repos/dataset_builder"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
