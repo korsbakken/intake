@@ -1,3 +1,8 @@
+[tool]
+rye = { dev-dependencies = [
+    "ipykernel>=6.29.5",
+    "pytest>=8.3.1",
+] }
 [tool.black]
 line-length = 100
 
@@ -34,10 +39,13 @@ classifiers = [
   "Development Status :: 4 - Beta",
 ]
 dependencies = [
-  "fsspec >=2023.0.0",
-  "pyyaml",
-  "platformdirs",
-  "networkx"
+    "fsspec >=2023.0.0",
+    "pyyaml",
+    "platformdirs",
+    "networkx",
+    "pandas>=2.2.2",
+    "hvplot>=0.10.0",
+    "s3fs>=2024.6.1",
 ]
 
 [tool.setuptools_scm]
