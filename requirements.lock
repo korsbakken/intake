@@ -22,7 +22,7 @@ attrs==23.2.0
     # via aiohttp
 bleach==6.1.0
     # via panel
-bokeh==3.4.2
+bokeh==3.4.3
     # via holoviews
     # via hvplot
     # via panel
@@ -70,7 +70,7 @@ mdurl==0.1.2
 multidict==6.0.5
     # via aiohttp
     # via yarl
-networkx==3.1
+networkx==3.3
     # via intake
 numpy==2.0.1
     # via bokeh

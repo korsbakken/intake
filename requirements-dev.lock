@@ -24,7 +24,7 @@ attrs==23.2.0
     # via aiohttp
 bleach==6.1.0
     # via panel
-bokeh==3.4.2
+bokeh==3.4.3
     # via holoviews
     # via hvplot
     # via panel
@@ -97,7 +97,7 @@ multidict==6.0.5
     # via yarl
 nest-asyncio==1.6.0
     # via ipykernel
-networkx==3.1
+networkx==3.3
     # via intake
 numpy==2.0.1
     # via bokeh
@@ -146,7 +146,7 @@ pure-eval==0.2.3
     # via stack-data
 pygments==2.18.0
     # via ipython
-pytest==8.3.1
+pytest==8.3.2
 python-dateutil==2.9.0.post0
     # via botocore
     # via jupyter-client
